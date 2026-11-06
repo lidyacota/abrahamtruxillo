@@ -20,7 +20,7 @@ Abraham Truxillo (México, 1983). Poeta, ensayista y narrador. Licenciado en Let
 ## Obra digital
 
 - *Bestiario marino*, con [Lidya Cota](https://www.lidyacota.com/), 2021. Mención honorífica en el Concurso Nacional Julio Torri de Literatura Digital 2021. Incluida en la *Antología Lit(e)Lat*, vol. 2.0 (2025). https://bestiariomarino.github.io/bestiariomarino/
-- *Bolero Techno*, con [Lidya Cota](https://www.lidyacota.com/), 2025. Presentada en El Aleph. Festival de Arte y Ciencia de la UNAM, 2026. https://bolerotechno.lidyacota.com/
+- *Bolero Techno*, con [Lidya Cota](https://www.lidyacota.com/), 2025. Presentada en El Aleph. Festival de Arte y Ciencia de la UNAM, 2026. https://lidyacota.github.io/bolero-techno/
 - *Pie de foto*, serie de ensayos breves en [piedefoto.abrahamtruxillo.net](https://www.piedefoto.abrahamtruxillo.net). https://www.piedefoto.abrahamtruxillo.net
 
 ## Textos sobre su obra

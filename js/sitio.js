@@ -15,3 +15,36 @@
     });
   }
 })();
+
+;(function () {
+  'use strict';
+
+  var measurementId = 'G-SGQL62V9GN';
+  var hostname = window.location.hostname;
+  var tagId = 'abrahamtruxillo-analytics-tag';
+
+  if ((hostname !== 'www.abrahamtruxillo.net' && hostname !== 'abrahamtruxillo.net') ||
+      !/^G-[A-Z0-9]{6,15}$/.test(measurementId) ||
+      window['ga-disable-' + measurementId] === true ||
+      document.getElementById(tagId)) return;
+
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+  window.gtag('consent', 'default', {
+    analytics_storage: 'granted',
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied'
+  });
+  window.gtag('js', new Date());
+  window.gtag('config', measurementId, {
+    allow_google_signals: false,
+    allow_ad_personalization_signals: false
+  });
+
+  var tag = document.createElement('script');
+  tag.id = tagId;
+  tag.async = true;
+  tag.src = 'https://www.googletagmanager.com/gtag/js?id=' + measurementId;
+  document.head.appendChild(tag);
+}());
